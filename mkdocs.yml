@@ -1,0 +1,80 @@
+site_name: ACRE - Art Criticism and Research Essentials
+site_description: A comprehensive framework for art theory, criticism, and analysis
+site_author: ACRE Framework Contributors
+site_url: https://oltecshota-lgtm.github.io/ACRE
+
+repo_name: oltecshota-lgtm/ACRE
+repo_url: https://github.com/oltecshota-lgtm/ACRE
+
+theme:
+  name: material
+  palette:
+    # Light mode
+    - scheme: default
+      primary: indigo
+      accent: amber
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Dark mode
+    - scheme: slate
+      primary: indigo
+      accent: amber
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+  icon:
+    repo: fontawesome/brands/github
+
+nav:
+  - Home: index.md
+  - Manifesto: manifesto.md
+  - Introduction:
+      - Overview: introduction/overview.md
+  - Theory:
+      - Formal Analysis: theory/formal-analysis.md
+      - Contextual Interpretation: theory/contextual-interpretation.md
+  - Methods:
+      - Visual Analysis: methods/visual-analysis.md
+  - Case Studies:
+      - case-studies/example-analysis.md
+  - Resources:
+      - resources/bibliography.md
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.tabbed:
+      alternate_style: true
+  - attr_list
+  - md_in_html
+  - footnotes
+  - tables
+  - toc:
+      permalink: true
+
+plugins:
+  - search
+  - tags
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/oltecshota-lgtm/ACRE
+  version:
+    provider: mike
+
+copyright: Copyright &copy; 2026 ACRE Framework Contributors
