@@ -1,80 +1,27 @@
-site_name: ACRE - Art Criticism and Research Essentials
-site_description: A comprehensive framework for art theory, criticism, and analysis
-site_author: ACRE Framework Contributors
-site_url: https://oltecshota-lgtm.github.io/ACRE
-
-repo_name: oltecshota-lgtm/ACRE
-repo_url: https://github.com/oltecshota-lgtm/ACRE
+site_name: ACRE
+site_description: Manifesto for Figuration and Non-existence
+site_author: ACRE-BUN
+repo_url: https://github.com/ACRE-BUN/ACRE
+repo_name: ACRE-BUN/ACRE
 
 theme:
   name: material
   palette:
-    # Light mode
-    - scheme: default
-      primary: indigo
-      accent: amber
-      toggle:
-        icon: material/brightness-7
-        name: Switch to dark mode
-    # Dark mode
-    - scheme: slate
-      primary: indigo
-      accent: amber
-      toggle:
-        icon: material/brightness-4
-        name: Switch to light mode
+    scheme: slate
+    primary: black
+    accent: deep purple
   features:
     - navigation.tabs
     - navigation.sections
-    - navigation.expand
-    - navigation.top
-    - search.suggest
-    - search.highlight
-    - content.code.copy
-  icon:
-    repo: fontawesome/brands/github
+    - toc.integrate
 
 nav:
   - Home: index.md
-  - Manifesto: manifesto.md
-  - Introduction:
-      - Overview: introduction/overview.md
-  - Theory:
-      - Formal Analysis: theory/formal-analysis.md
-      - Contextual Interpretation: theory/contextual-interpretation.md
-  - Methods:
-      - Visual Analysis: methods/visual-analysis.md
-  - Case Studies:
-      - case-studies/example-analysis.md
-  - Resources:
-      - resources/bibliography.md
-
-markdown_extensions:
-  - admonition
-  - pymdownx.details
-  - pymdownx.superfences
-  - pymdownx.highlight:
-      anchor_linenums: true
-  - pymdownx.inlinehilite
-  - pymdownx.snippets
-  - pymdownx.tabbed:
-      alternate_style: true
-  - attr_list
-  - md_in_html
-  - footnotes
-  - tables
-  - toc:
-      permalink: true
-
-plugins:
-  - search
-  - tags
-
-extra:
-  social:
-    - icon: fontawesome/brands/github
-      link: https://github.com/oltecshota-lgtm/ACRE
-  version:
-    provider: mike
-
-copyright: Copyright &copy; 2026 ACRE Framework Contributors
+  - Manifesto: 01_manifesto.md
+  - Concepts:
+      - Terms: 03_terms.md
+      - Models: 04_models.md
+  - Project:
+      - Quickstart: 02_quickstart.md
+      - FAQ: 05_faq.md
+      - Changelog: 06_changelog.md
