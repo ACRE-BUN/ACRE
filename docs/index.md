@@ -1,40 +1,15 @@
-# Welcome to ACRE
+# はじめに
 
-**A**rt **C**riticism and **R**esearch **E**ssentials
+ACRE（アケル）は、造形物（Figure）を「見た目」や「再現」ではなく、**非存在への接続（Figuration）の痕跡**として捉えるためのフレームです。
 
-## What is ACRE?
+ここで扱うのは、宗教でもスピリチュアルでもなく、**造形を成立させる"必然"を記述するための言語**です。
 
-ACRE is a comprehensive framework for art theory, criticism, and analysis. It provides structured methodologies for understanding, interpreting, and discussing art across various mediums, styles, and historical periods.
+## まず一文で
+- **形が価値なのではない。接続が必然として成立したかが価値である。**
 
-## Framework Components
+## ACREがやること
+- 用語を固定する（曖昧さを削る）
+- 接続のモデルを定義する（兆候→閾値→外在化）
+- 造形（Figure）を、接続の結果として分類する（Proto / Reflexive）
 
-### 1. Introduction
-Learn about the foundations of art theory and the ACRE framework's approach to art criticism.
-
-### 2. Theory
-Explore core theoretical concepts including:
-- Formal analysis
-- Contextual interpretation
-- Semiotics and symbolism
-- Art movements and periods
-
-### 3. Methods
-Discover analytical methods and approaches:
-- Visual analysis techniques
-- Comparative analysis
-- Historical research methods
-- Critical writing strategies
-
-### 4. Case Studies
-Apply the framework through real-world examples and detailed analyses of significant artworks.
-
-### 5. Resources
-Access additional materials, bibliographies, and tools for art research and criticism.
-
-## Getting Started
-
-Begin with the [Introduction](introduction/overview.md) to understand the fundamental principles of art theory and criticism.
-
-## Purpose
-
-ACRE aims to provide students, researchers, and art enthusiasts with a systematic approach to engaging with art critically and thoughtfully.
+次は **[マニフェスト](01_manifesto.md)**。
