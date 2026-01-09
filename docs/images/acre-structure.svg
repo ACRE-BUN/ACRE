@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1050 380" font-family="'Helvetica Neue', Arial, sans-serif">
+  
+  <!-- Background -->
+  <rect width="1050" height="380" fill="#fff"/>
+  
+  <!-- Nul -->
+  <rect x="40" y="155" width="100" height="70" fill="none" stroke="#000" stroke-width="1"/>
+  <text x="90" y="187" text-anchor="middle" font-size="15" font-weight="500" letter-spacing="0.5">Nul</text>
+  <text x="90" y="207" text-anchor="middle" font-size="9" fill="#666" letter-spacing="0.3">原初</text>
+  
+  <!-- Line from Nul (extended) -->
+  <path d="M 140 190 L 220 190" stroke="#000" stroke-width="1" fill="none"/>
+  
+  <!-- 1st Bifurcation point -->
+  <circle cx="220" cy="190" r="2" fill="#000"/>
+  
+  <!-- 1st Bifurcation label (under the horizontal line) -->
+  <text x="180" y="208" text-anchor="middle" font-size="8" fill="#666" letter-spacing="0.3">1st Bifurcation</text>
+  
+  <!-- Lines to Existence and Non-existence (sharper angle: 70px horizontal, 50px vertical) -->
+  <path d="M 220 190 L 290 130" stroke="#000" stroke-width="1" stroke-dasharray="4,3" fill="none"/>
+  <path d="M 220 190 L 290 250" stroke="#000" stroke-width="1" fill="none"/>
+  
+  <!-- Existence (dashed - black) -->
+  <rect x="290" y="95" width="110" height="70" fill="none" stroke="#000" stroke-width="1" stroke-dasharray="4,3"/>
+  <text x="345" y="127" text-anchor="middle" font-size="13" fill="#000" letter-spacing="0.3">存在</text>
+  <text x="345" y="145" text-anchor="middle" font-size="9" fill="#666" letter-spacing="0.3">Existence</text>
+  
+  <!-- Non-existence -->
+  <rect x="290" y="215" width="110" height="70" fill="none" stroke="#000" stroke-width="1"/>
+  <text x="345" y="247" text-anchor="middle" font-size="13" letter-spacing="0.3">非存在</text>
+  <text x="345" y="265" text-anchor="middle" font-size="9" fill="#666" letter-spacing="0.3">Non-existence</text>
+  
+  <!-- Line from Non-existence (extended) -->
+  <path d="M 400 250 L 480 250" stroke="#000" stroke-width="1" fill="none"/>
+  
+  <!-- 2nd Bifurcation point -->
+  <circle cx="480" cy="250" r="2" fill="#000"/>
+  
+  <!-- 2nd Bifurcation label (under the horizontal line) -->
+  <text x="440" y="268" text-anchor="middle" font-size="8" fill="#666" letter-spacing="0.3">2nd Bifurcation</text>
+  
+  <!-- Lines to Orah and Urun (same sharper angle: 70px horizontal, 50px vertical) -->
+  <path d="M 480 250 L 550 190" stroke="#000" stroke-width="1" fill="none"/>
+  <path d="M 480 250 L 550 310" stroke="#000" stroke-width="1" fill="none"/>
+  
+  <!-- Orah -->
+  <rect x="550" y="155" width="120" height="70" fill="none" stroke="#000" stroke-width="1"/>
+  <text x="610" y="185" text-anchor="middle" font-size="14" font-weight="500" letter-spacing="0.5">Orah</text>
+  <text x="610" y="203" text-anchor="middle" font-size="9" fill="#666" letter-spacing="0.2">外なる非存在</text>
+  <text x="610" y="217" text-anchor="middle" font-size="8" fill="#999">世界の側の不在</text>
+  
+  <!-- Dotted enclosure around Urun and Figure -->
+  <rect x="535" y="265" width="420" height="100" fill="none" stroke="#000" stroke-width="1" stroke-dasharray="5,4" rx="2"/>
+  
+  <!-- Urun (light gray background, black text) -->
+  <rect x="550" y="280" width="120" height="70" fill="#ddd" stroke="#000" stroke-width="1"/>
+  <text x="610" y="310" text-anchor="middle" font-size="14" font-weight="500" fill="#000" letter-spacing="0.5">Urun</text>
+  <text x="610" y="328" text-anchor="middle" font-size="9" fill="#333" letter-spacing="0.2">内なる非存在</text>
+  <text x="610" y="342" text-anchor="middle" font-size="8" fill="#666">主体の側の不在</text>
+  
+  <!-- Arrow from Urun to Figure -->
+  <path d="M 670 315 L 810 315" stroke="#000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Figuration label under the arrow -->
+  <text x="740" y="332" text-anchor="middle" font-size="9" fill="#666" letter-spacing="0.3">Figuration</text>
+  
+  <!-- Arrowhead definition -->
+  <defs>
+    <marker id="arrowhead" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#000"/>
+    </marker>
+  </defs>
+  
+  <!-- Figure (light gray background, black text) -->
+  <rect x="820" y="280" width="120" height="70" fill="#ddd" stroke="#000" stroke-width="1"/>
+  <text x="880" y="310" text-anchor="middle" font-size="14" font-weight="500" fill="#000" letter-spacing="0.5">造形</text>
+  <text x="880" y="328" text-anchor="middle" font-size="9" fill="#333" letter-spacing="0.3">Figure</text>
+  
+</svg>
