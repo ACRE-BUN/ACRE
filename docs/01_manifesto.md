@@ -24,8 +24,6 @@ ACREは、造形の成立条件を定義し直す。
 
 ## 03. 定義 (Definitions)
 
-![ACRE: Nul-Orah-Urun Structure](./images/acre-structure.svg)
-
 ### Nul（ヌル）
 分岐以前の未分化。存在／非存在がまだ分かれていない状態。
 
@@ -34,6 +32,9 @@ ACREは、造形の成立条件を定義し直す。
 
 ### Urun（ウルン）
 内側の非存在。主体に沈む領域であり、接続の対象。
+
+![ACRE: Nul-Orah-Urun Structure](./images/acre-structure.svg)
+
 
 ### Figuration（フィギュレーション／造形）
 ACREにおけるFigurationは、Urun（内側の非存在）への接続が成立したときにだけ起こる外在化である。差分を目的化せず、変奏が必要な場合も消費のためではなく、接続を別角度から照らして問いを残すために行う。アルゴリズム、価格、希少性、ステータスは成立の代替にならない。Figurationは形を増やす行為ではなく、痕跡を固定する行為である。
