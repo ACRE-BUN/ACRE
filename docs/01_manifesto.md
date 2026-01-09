@@ -24,7 +24,7 @@ ACREは、造形の成立条件を定義し直す。
 
 ## 03. 定義 (Definitions)
 
-<img src="acre-structure-v14.svg" width="780">
+![ACRE: Nul-Orah-Urun Structure](./images/acre-structure.svg)
 
 ### Nul（ヌル）
 分岐以前の未分化。存在／非存在がまだ分かれていない状態。
